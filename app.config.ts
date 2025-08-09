@@ -1,5 +1,6 @@
 export default {
   expo: {
+    owner: 'deepdarksouls',
     name: 'Cherry Studio',
     slug: 'cherry-studio',
     version: '1.0.0',
@@ -9,6 +10,9 @@ export default {
     userInterfaceStyle: 'automatic',
     newArchEnabled: true,
     entryPoint: './src/app.js',
+    updates: {
+      url: 'https://u.expo.dev/49a38044-8c6c-4aa3-a2e3-6fd2171535d7'
+    },
     ios: {
       supportsTablet: true,
       bundleIdentifier: 'com.anonymous.cherrystudio'
@@ -73,7 +77,8 @@ export default {
     },
     extra: {
       eas: {
-        projectId: '80096eaf-3ad0-4b87-a466-15f04da1bacc'
+        
+        "projectId": "49a38044-8c6c-4aa3-a2e3-6fd2171535d7"
       }
     }
   }
